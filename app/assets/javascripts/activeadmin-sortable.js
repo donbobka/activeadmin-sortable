@@ -12,7 +12,7 @@
           url: url,
           type: 'post',
           data: { position: ui.item.index() + 1 },
-          success: function() { window.location.reload() }
+          success: function() { }
         });
       }
     });
